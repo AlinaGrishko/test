@@ -1,4 +1,33 @@
+@import "variables";
+@import "mixins";
+
 #header{
   background: url("../img/bg1.png");
+  a{
+    @include menu;
+    &:hover{
+      color: $pink;
+    }
+  }
+}
+
+#first{
+  h1{
+    color: $main-color;
+    font-size: 38px;
+    margin-top: 90px;
+  }
+  button{
+    @include first-button;
+  }
+}
+
+#about{
+  p{
+    @include text;
+  }
+  h2{
+    @include h2;
+  }
 }
 

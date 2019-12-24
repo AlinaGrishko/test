@@ -1,4 +1,33 @@
 #header {
   background: url("../img/bg1.png"); }
+  #header a {
+    color: #256988;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase; }
+    #header a:hover {
+      color: #EF2E79; }
+
+#first h1 {
+  color: #256988;
+  font-size: 38px;
+  margin-top: 90px; }
+#first button {
+  color: #fff;
+  background: #EF2E79;
+  font-size: 19px;
+  border-radius: 30px;
+  padding: 5px 50px;
+  margin: 55px; }
+
+#about p {
+  color: #256988;
+  font-size: 11 px;
+  margin: 40px;
+  line-height: 2; }
+#about h2 {
+  color: #256988;
+  font-size: 14px;
+  text-transform: uppercase; }
 
 /*# sourceMappingURL=style.css.map */
